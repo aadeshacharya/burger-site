@@ -1,0 +1,249 @@
+
+*{
+    margin: 0px;
+    padding: opx;
+}
+.main-nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+.parent1{
+    padding: 10px 20px;
+    /* background-color: lightcoral; */
+}
+.parent1 p{
+    letter-spacing: 3px;
+}
+.parent2{
+    display: flex;
+}
+.a1 {
+    padding: 10px 20px;
+    /* background-color: lightcoral; */
+}
+.a1 a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* background-color: lightcoral; */
+}
+.a1:hover{
+    background-color: rgb(224, 219, 219);
+}
+.parent1:hover{
+    background-color: rgb(224, 219, 219);
+}
+.back-img{
+    height: 520px;
+    width: auto;
+    background-image: url(hamburger.jpg);
+    background-size: cover;
+    background-position-y: -90px;
+}
+.back-img p{
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: gray;
+}
+.sec1{
+    height: 600px;
+    width: auto;
+    margin: 70px 120px;
+    /* background-color: red; */
+    display: flex;
+}
+.sec1-img{
+    height: 600px;
+    width: 45%;
+}
+.sec1-img img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.sec1-txt{
+    height: 600px;
+    width: 55%;
+}
+.about h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.tradition p{
+    margin-top: 30px;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.para1 p{
+    margin-top: 24px;
+    margin-left: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.seasonal{
+    background-color: rgb(236, 226, 226);
+}
+.para2{
+    margin-top: 24px;
+    margin-left: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: gray;
+}
+.sec2{
+    height: 700px;
+    width: auto;
+    /* background-color: red; */
+    margin: 50px 120px;
+    display: flex;
+}
+.sec2-txt{
+    height: 700px;
+    width: 55%;
+    /* background-color: green; */
+}
+.sec2-img{
+    height: 700px;
+    width: 45%;
+    /* background-color: yellow; */
+}
+.sec2-img img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    margin-top: 40px;
+    /* margin-left: 40px; */
+    /* font-size: 20px; */
+    text-align: center;
+    letter-spacing: 3px;
+}
+.basket{
+    margin-top: 35px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.line1{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* font-size: 19px; */
+    color: gray;
+}
+.honey{
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.line2{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* font-size: 19px; */
+    color: gray;
+}
+.waffle{
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.line3{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* font-size: 19px; */
+    color: gray;
+}
+.eggs{
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.line4{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* font-size: 19px; */
+    color: gray;
+}
+.blueberry{
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.line5{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* font-size: 19px; */
+    color: gray;
+}
+
+.sec3{
+    height: 500px;
+    width: auto;
+    /* background-color: blue; */
+    margin: 50px 120px;
+}
+.cont h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+.cont1 p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.cont2 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(49, 160, 204);
+}
+.cont3 p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sec3 input{
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-left: 20px;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+.submit {
+height: 10px;
+width: 20%;
+padding-top: 40px;
+}
+.submit input{
+border: none;
+}
+.submit input:hover{
+    background-color: gray;
+}
+.footer{
+    /* height:150px; */
+    line-height: 8;
+    width:100%;
+    background-color: rgb(236, 236, 236);
+}
+.footer p{
+    text-align: center;
+}
+.link2 a{
+    color:black;
+}
+.link2 a:hover{
+    color:green;
+}
